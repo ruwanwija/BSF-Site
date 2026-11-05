@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "id": "b0000ey",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000ex",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000ew",
+              "elType": "widget",
+              "widgetType": "fbsf-department-cards",
+              "settings": {
+                "fbsf_department-cards_limit": "4"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "FBSF — Department Card"
+}

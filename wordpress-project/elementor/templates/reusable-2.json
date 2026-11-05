@@ -1,0 +1,49 @@
+{
+  "content": [
+    {
+      "id": "b0000f1",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000f0",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000ez",
+              "elType": "widget",
+              "widgetType": "fbsf-programme-cards",
+              "settings": {
+                "fbsf_programme-cards_limit": "6"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "FBSF — Programme Card"
+}

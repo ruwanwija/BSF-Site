@@ -1,0 +1,579 @@
+{
+  "content": [
+    {
+      "id": "b00007x",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "_element_background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "_background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "background_position": "center center",
+        "_background_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00007w",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00007t",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-breadcrumb\"><a href=\"/\">Home</a> / Publications</div>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.7)",
+                "_text_color": "rgba(255,255,255,0.7)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "b00007u",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Publications",
+                "header_size": "h1",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 34
+                }
+              }
+            },
+            {
+              "id": "b00007v",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.88)\">The faculty’s research journals and magazines — ISSNs, issues, editorial information and searchable article listings.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.88)",
+                "_text_color": "rgba(255,255,255,0.88)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000081",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000080",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00007y",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Journals</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00007z",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Research Journals",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000084",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000083",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000082",
+              "elType": "widget",
+              "widgetType": "fbsf-journal-tabs",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000088",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000087",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000085",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Article index</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000086",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Search Articles",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00008b",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00008a",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000089",
+              "elType": "widget",
+              "widgetType": "fbsf-article-search",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00008f",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00008e",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00008c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Submissions</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00008d",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Submission Information",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00008i",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00008h",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00008g",
+              "elType": "widget",
+              "widgetType": "fbsf-journal-submissions",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00008l",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00008k",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00008j",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-notice fbsf-notice--archived\">All submission deadlines listed are historical and retained for reference.</div>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00008t",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00008o",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b00008m",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need help?",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            },
+            {
+              "id": "b00008n",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.85)\">Contact the faculty office for programme enquiries, applications and general information.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.85)",
+                "_text_color": "rgba(255,255,255,0.85)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00008q",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00008p",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215",
+                "alignment": "left",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00008s",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00008r",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email the office",
+                "link": [
+                  {
+                    "url": "mailto:bsfoffice@wyb.ac.lk",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "solid",
+                "background_color": "#3db166",
+                "_background_color": "#3db166",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Publications"
+}

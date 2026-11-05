@@ -1,0 +1,191 @@
+{
+  "content": [
+    {
+      "id": "b0000cy",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#181818",
+        "_background_color": "#181818",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000cs",
+          "elType": "column",
+          "settings": {
+            "_element_width": "33"
+          },
+          "elements": [
+            {
+              "id": "b0000cq",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "id": 0,
+                  "url": "{{child}}/assets/images/logo.svg"
+                },
+                "_image_size": "full",
+                "_alignment": "center"
+              }
+            },
+            {
+              "id": "b0000cr",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Faculty of Business Studies and Finance</strong><br><span style=\"color:#ababab\">Wayamba University of Sri Lanka</span><br><span style=\"color:#ababab\">60200, Kuliyapitiya, Sri Lanka</span>",
+                "alignment": "left",
+                "text_color": "#ababab",
+                "_text_color": "#ababab",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000cv",
+          "elType": "column",
+          "settings": {
+            "_element_width": "33"
+          },
+          "elements": [
+            {
+              "id": "b0000ct",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Quick Links",
+                "header_size": "h4",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            },
+            {
+              "id": "b0000cu",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<a href=\"/\">Home</a><br><a href=\"/about/\">About</a><br><a href=\"/departments/\">Departments</a><br><a href=\"/programmes/\">Programmes</a><br><a href=\"/research/\">Research</a><br><a href=\"/publications/\">Publications</a><br><a href=\"/events/\">Events</a><br><a href=\"/authorities/\">Authorities</a><br><a href=\"/contact/\">Contact</a><br>",
+                "alignment": "left",
+                "text_color": "#ababab",
+                "_text_color": "#ababab",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000cx",
+          "elType": "column",
+          "settings": {
+            "_element_width": "33"
+          },
+          "elements": [
+            {
+              "id": "b0000cw",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215<br><strong style=\"color:#ffffff\">Email</strong><br><a href=\"mailto:bsfoffice@wyb.ac.lk\" style=\"color:#ababab\">bsfoffice@wyb.ac.lk</a><br><strong style=\"color:#ffffff\">Useful Links</strong><br><a href=\"https://wyb.ac.lk/\" target=\"_blank\" rel=\"noopener\">Wayamba University of Sri Lanka</a><br><a href=\"https://libsys.wyb.ac.lk/\" target=\"_blank\" rel=\"noopener\">WUSL Library</a><br><a href=\"https://sdc.wyb.ac.lk/wybsdc/\" target=\"_blank\" rel=\"noopener\">Staff Development Centre</a><br>",
+                "alignment": "left",
+                "text_color": "#ababab",
+                "_text_color": "#ababab",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 14
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000d1",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#181818",
+        "_background_color": "#181818",
+        "padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "20",
+          "bottom": "16",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "16",
+          "right": "20",
+          "bottom": "16",
+          "left": "20"
+        },
+        "border": {
+          "unit": "px",
+          "top": "1",
+          "right": "0",
+          "bottom": "0",
+          "left": "0"
+        },
+        "border_color": "rgba(255,255,255,0.12)",
+        "_border_color": "rgba(255,255,255,0.12)"
+      },
+      "elements": [
+        {
+          "id": "b0000d0",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000cz",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color:#7a7a7a\">© 2026 Faculty of Business Studies and Finance. All rights reserved.</span>",
+                "alignment": "left",
+                "text_color": "#7a7a7a",
+                "_text_color": "#7a7a7a",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "FBSF Footer"
+}

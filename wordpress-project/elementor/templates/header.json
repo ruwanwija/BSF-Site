@@ -1,0 +1,200 @@
+{
+  "content": [
+    {
+      "id": "b0000ch",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "8",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "8",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000ce",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b0000cd",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color:rgba(255,255,255,0.9)\"><strong>Tel:</strong> +94 37 228 4215</span>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.9)",
+                "_text_color": "rgba(255,255,255,0.9)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000cg",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b0000cf",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span style=\"color:rgba(255,255,255,0.9)\"><strong>Email:</strong> <a href=\"mailto:bsfoffice@wyb.ac.lk\" style=\"color:rgba(255,255,255,0.9)\">bsfoffice@wyb.ac.lk</a></span>",
+                "alignment": "right",
+                "text_color": "rgba(255,255,255,0.9)",
+                "_text_color": "rgba(255,255,255,0.9)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000cp",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "14",
+          "right": "20",
+          "bottom": "14",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "14",
+          "right": "20",
+          "bottom": "14",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000ck",
+          "elType": "column",
+          "settings": {
+            "_element_width": "30"
+          },
+          "elements": [
+            {
+              "id": "b0000ci",
+              "elType": "widget",
+              "widgetType": "image",
+              "settings": {
+                "image": {
+                  "id": 0,
+                  "url": "{{child}}/assets/images/logo.svg"
+                },
+                "_image_size": "full",
+                "_alignment": "center"
+              }
+            },
+            {
+              "id": "b0000cj",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Faculty of Business Studies and Finance",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#192f59",
+                "_title_color": "#192f59",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000cm",
+          "elType": "column",
+          "settings": {
+            "_element_width": "45"
+          },
+          "elements": [
+            {
+              "id": "b0000cl",
+              "elType": "widget",
+              "widgetType": "nav-menu",
+              "settings": {
+                "menu": 0,
+                "alignment": "left",
+                "menu_type": "horizontal",
+                "_menu__color": "#192f59"
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000co",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b0000cn",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Search",
+                "link": [
+                  {
+                    "url": "/search/",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "outline",
+                "background_color": "transparent",
+                "_background_color": "transparent",
+                "text_color": "#192f59",
+                "_text_color": "#192f59",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "fit-content"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "FBSF Header"
+}

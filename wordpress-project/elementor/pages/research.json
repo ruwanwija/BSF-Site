@@ -1,0 +1,731 @@
+{
+  "content": [
+    {
+      "id": "b00006n",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "_element_background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "_background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "background_position": "center center",
+        "_background_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00006m",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00006j",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-breadcrumb\"><a href=\"/\">Home</a> / Research</div>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.7)",
+                "_text_color": "rgba(255,255,255,0.7)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "b00006k",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Research & Publications Portal",
+                "header_size": "h1",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 34
+                }
+              }
+            },
+            {
+              "id": "b00006l",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.88)\">Journals, research symposia and submission guidelines for the Faculty of Business Studies and Finance.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.88)",
+                "_text_color": "rgba(255,255,255,0.88)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00006r",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00006q",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00006o",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">A faculty committed to research excellence</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00006p",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Research Culture",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00006w",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00006v",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00006s",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The faculty promotes research that connects academia with industry. Faculty members publish in refereed journals, present at annual research symposia, and engage with professional bodies and industry partners.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00006t",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Research areas include accounting, banking, finance, insurance, valuation, risk management, business management, entrepreneurship and digital transformation.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00006u",
+              "elType": "widget",
+              "widgetType": "fbsf-site-content",
+              "settings": {
+                "fbsf_site-content_block": "research_areas"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000070",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00006z",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00006x",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Journals &amp; magazines</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00006y",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Publications",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000073",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000072",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000071",
+              "elType": "widget",
+              "widgetType": "fbsf-journal-cards",
+              "settings": {
+                "fbsf_journal-cards_limit": "7"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000076",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000075",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000074",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Open the publications page",
+                "link": [
+                  {
+                    "url": "/publications/",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "outline",
+                "background_color": "transparent",
+                "_background_color": "transparent",
+                "text_color": "#192f59",
+                "_text_color": "#192f59",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00007a",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000079",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000077",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Annual research symposia</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000078",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Research Symposia",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00007d",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00007c",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00007b",
+              "elType": "widget",
+              "widgetType": "fbsf-events",
+              "settings": {
+                "fbsf_events_type": "research-symposium",
+                "fbsf_events_limit": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00007h",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00007g",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00007e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Submissions</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00007f",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Submission Guidelines at a Glance",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00007k",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00007j",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00007i",
+              "elType": "widget",
+              "widgetType": "fbsf-journal-submissions",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00007s",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00007n",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b00007l",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need help?",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            },
+            {
+              "id": "b00007m",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.85)\">Contact the faculty office for programme enquiries, applications and general information.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.85)",
+                "_text_color": "rgba(255,255,255,0.85)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00007p",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00007o",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215",
+                "alignment": "left",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00007r",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00007q",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email the office",
+                "link": [
+                  {
+                    "url": "mailto:bsfoffice@wyb.ac.lk",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "solid",
+                "background_color": "#3db166",
+                "_background_color": "#3db166",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Research & Publications"
+}

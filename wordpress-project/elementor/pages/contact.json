@@ -1,0 +1,725 @@
+{
+  "content": [
+    {
+      "id": "b0000b8",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "_element_background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "_background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "background_position": "center center",
+        "_background_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000b7",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000b4",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-breadcrumb\"><a href=\"/\">Home</a> / Contact</div>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.7)",
+                "_text_color": "rgba(255,255,255,0.7)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "b0000b5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact Us",
+                "header_size": "h1",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 34
+                }
+              }
+            },
+            {
+              "id": "b0000b6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.88)\">Addresses, telephone numbers, email addresses and an enquiry form for the faculty and its departments.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.88)",
+                "_text_color": "rgba(255,255,255,0.88)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bc",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000bb",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000b9",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Who to contact</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b0000ba",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Contact Information",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bf",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000be",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000bd",
+              "elType": "widget",
+              "widgetType": "fbsf-contact-cards",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bj",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000bi",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000bg",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Location &amp; hours</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b0000bh",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Visit Us",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bp",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000bo",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000bl",
+              "elType": "column",
+              "settings": {
+                "_element_width": "50"
+              },
+              "elements": [
+                {
+                  "id": "b0000bk",
+                  "elType": "widget",
+                  "widgetType": "fbsf-site-content",
+                  "settings": {
+                    "fbsf_site-content_block": "visit_us"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b0000bn",
+              "elType": "column",
+              "settings": {
+                "_element_width": "50"
+              },
+              "elements": [
+                {
+                  "id": "b0000bm",
+                  "elType": "widget",
+                  "widgetType": "fbsf-site-content",
+                  "settings": {
+                    "fbsf_site-content_block": "office_hours"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bt",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000bs",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000bq",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Send us a message</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b0000br",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Enquiry Form",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000bx",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000bw",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000bu",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>Programme & general enquiries can be sent using the form below. Please include your name, email and the subject of your enquiry.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b0000bv",
+              "elType": "widget",
+              "widgetType": "form",
+              "settings": {
+                "form_fields": [
+                  {
+                    "id": "field_name",
+                    "type": "text",
+                    "label": "Full name",
+                    "required": "yes",
+                    "placeholder": "Your name",
+                    "inputType": "text"
+                  },
+                  {
+                    "id": "field_email",
+                    "type": "email",
+                    "label": "Email address",
+                    "required": "yes",
+                    "placeholder": "you@example.com",
+                    "inputType": "email"
+                  },
+                  {
+                    "id": "field_phone",
+                    "type": "text",
+                    "label": "Phone",
+                    "required": "no",
+                    "placeholder": "Optional",
+                    "inputType": "tel"
+                  },
+                  {
+                    "id": "field_subject",
+                    "type": "text",
+                    "label": "Subject",
+                    "required": "no",
+                    "placeholder": "e.g. Programme enquiry",
+                    "inputType": "text"
+                  },
+                  {
+                    "id": "field_message",
+                    "type": "textarea",
+                    "label": "Message",
+                    "required": "yes",
+                    "placeholder": "Your message",
+                    "inputType": "textarea"
+                  }
+                ],
+                "mailto": "bsfoffice@wyb.ac.lk",
+                "submit_button_text": "Send message",
+                "submit_button_background_color": "#3db166",
+                "_submit_button_background_color": "#3db166",
+                "submit_button_text_color": "#ffffff",
+                "_submit_button_text_color": "#ffffff",
+                "success_message": "Thank you — your enquiry has been received by the faculty office."
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000c1",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000c0",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000by",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Frequently asked questions</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b0000bz",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "FAQ",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000c4",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000c3",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000c2",
+              "elType": "widget",
+              "widgetType": "fbsf-faq",
+              "settings": {}
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b0000cc",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000c7",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b0000c5",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need help?",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            },
+            {
+              "id": "b0000c6",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.85)\">Contact the faculty office for programme enquiries, applications and general information.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.85)",
+                "_text_color": "rgba(255,255,255,0.85)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000c9",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b0000c8",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215",
+                "alignment": "left",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b0000cb",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b0000ca",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email the office",
+                "link": [
+                  {
+                    "url": "mailto:bsfoffice@wyb.ac.lk",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "solid",
+                "background_color": "#3db166",
+                "_background_color": "#3db166",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Contact Us"
+}

@@ -1,0 +1,1026 @@
+{
+  "content": [
+    {
+      "id": "b00002w",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "_element_background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "_background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "background_position": "center center",
+        "_background_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00002v",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00002s",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-breadcrumb\"><a href=\"/\">Home</a> / About</div>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.7)",
+                "_text_color": "rgba(255,255,255,0.7)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "b00002t",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "About the Faculty",
+                "header_size": "h1",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 34
+                }
+              }
+            },
+            {
+              "id": "b00002u",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.88)\">History, vision, mission and the leadership of the Faculty of Business Studies and Finance.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.88)",
+                "_text_color": "rgba(255,255,255,0.88)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000030",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00002z",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00002x",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Since 1999</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00002y",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "History & Establishment",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000034",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000033",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000031",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The Faculty of Business Studies and Finance was established in 1999 as an academic faculty of Wayamba University of Sri Lanka. It was established by the Government Notification in the Extraordinary Gazette No. 1093/8 of Tuesday, 17 August 1999, and commenced operations on 01 October 1999.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000032",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The faculty offers a range of undergraduate, postgraduate, diploma and external programmes across four academic departments: Accountancy, Banking & Finance, Business Management, and Insurance & Valuation.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000037",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000036",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000035",
+              "elType": "widget",
+              "widgetType": "fbsf-site-content",
+              "settings": {
+                "fbsf_site-content_block": "history"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003b",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003a",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000038",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Our direction</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000039",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Vision & Mission",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003e",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003d",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00003c",
+              "elType": "widget",
+              "widgetType": "fbsf-site-content",
+              "settings": {
+                "fbsf_site-content_block": "vision_mission"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003i",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003h",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00003f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">The faculty at a glance</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00003g",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Faculty Overview",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003s",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#f5f7fa",
+        "_background_color": "#f5f7fa",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003r",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00003k",
+              "elType": "column",
+              "settings": {
+                "_element_width": "25"
+              },
+              "elements": [
+                {
+                  "id": "b00003j",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 4,
+                    "suffix": "",
+                    "prefix": "",
+                    "title": "Departments",
+                    "_title_color": "#192f59",
+                    "_starting_number_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "_starting_number_font_size": {
+                      "unit": "px",
+                      "size": 34
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b00003m",
+              "elType": "column",
+              "settings": {
+                "_element_width": "25"
+              },
+              "elements": [
+                {
+                  "id": "b00003l",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 10,
+                    "suffix": "",
+                    "prefix": "",
+                    "title": "Programmes",
+                    "_title_color": "#192f59",
+                    "_starting_number_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "_starting_number_font_size": {
+                      "unit": "px",
+                      "size": 34
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b00003o",
+              "elType": "column",
+              "settings": {
+                "_element_width": "25"
+              },
+              "elements": [
+                {
+                  "id": "b00003n",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 7,
+                    "suffix": "",
+                    "prefix": "",
+                    "title": "Journals",
+                    "_title_color": "#192f59",
+                    "_starting_number_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "_starting_number_font_size": {
+                      "unit": "px",
+                      "size": 34
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b00003q",
+              "elType": "column",
+              "settings": {
+                "_element_width": "25"
+              },
+              "elements": [
+                {
+                  "id": "b00003p",
+                  "elType": "widget",
+                  "widgetType": "counter",
+                  "settings": {
+                    "starting_number": 3,
+                    "suffix": "",
+                    "prefix": "",
+                    "title": "Symposia",
+                    "_title_color": "#192f59",
+                    "_starting_number_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 13
+                    },
+                    "_starting_number_font_size": {
+                      "unit": "px",
+                      "size": 34
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003v",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003u",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00003t",
+              "elType": "widget",
+              "widgetType": "fbsf-department-cards",
+              "settings": {
+                "fbsf_department-cards_limit": "4"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00003z",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00003y",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00003w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Leadership</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00003x",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Dean's Message",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000042",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000041",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000040",
+              "elType": "widget",
+              "widgetType": "fbsf-site-content",
+              "settings": {
+                "fbsf_site-content_block": "dean_message"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b000046",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000045",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000043",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Administration</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000044",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Academic & Administrative Structure",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00004a",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000049",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000047",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The Faculty Quality Assurance Cell (FQAC) coordinates quality assurance activities for the faculty in liaison with the Centre for Quality Assurance (CQA) of the university, working with the Quality Assurance Units of the four academic departments.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b000048",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p>The faculty operates a number of standing committees that oversee curriculum, research, teaching and learning, and student–staff liaison.</p>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00004d",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00004c",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00004b",
+              "elType": "widget",
+              "widgetType": "fbsf-site-content",
+              "settings": {
+                "fbsf_site-content_block": "committees"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00004l",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00004g",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b00004e",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need help?",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            },
+            {
+              "id": "b00004f",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.85)\">Contact the faculty office for programme enquiries, applications and general information.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.85)",
+                "_text_color": "rgba(255,255,255,0.85)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00004i",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00004h",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215",
+                "alignment": "left",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00004k",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00004j",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email the office",
+                "link": [
+                  {
+                    "url": "mailto:bsfoffice@wyb.ac.lk",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "solid",
+                "background_color": "#3db166",
+                "_background_color": "#3db166",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "About the Faculty"
+}

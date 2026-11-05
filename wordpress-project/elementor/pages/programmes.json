@@ -1,0 +1,531 @@
+{
+  "content": [
+    {
+      "id": "b00005p",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "_element_background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "_background_image": {
+          "id": 0,
+          "url": "{{child}}/assets/images/hero-pattern.svg"
+        },
+        "background_position": "center center",
+        "_background_position": "center center",
+        "padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "56",
+          "right": "40",
+          "bottom": "56",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00005o",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00005l",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-breadcrumb\"><a href=\"/\">Home</a> / Programmes</div>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.7)",
+                "_text_color": "rgba(255,255,255,0.7)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 13
+                }
+              }
+            },
+            {
+              "id": "b00005m",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Academic Programmes",
+                "header_size": "h1",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 34
+                }
+              }
+            },
+            {
+              "id": "b00005n",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.88)\">Undergraduate, postgraduate, diploma, higher diploma, advanced certificate and external programmes — filter by category, department or keyword.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.88)",
+                "_text_color": "rgba(255,255,255,0.88)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 16
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00005s",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00005r",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00005q",
+              "elType": "widget",
+              "widgetType": "fbsf-programme-filter",
+              "settings": {
+                "fbsf_programme-filter_columns": "3"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00005v",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "12",
+          "right": "20",
+          "bottom": "24",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00005u",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00005t",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<div class=\"fbsf-notice fbsf-notice--archived\">All application deadlines listed are historical and retained for reference. Contact the faculty office for current intake information.</div>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00005z",
+      "elType": "section",
+      "settings": {
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "8",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00005y",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b00005w",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<span class=\"fbsf-section-eyebrow\">Applications</span>",
+                "alignment": "left",
+                "text_color": "#2b2f36",
+                "_text_color": "#2b2f36",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            },
+            {
+              "id": "b00005x",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "How to Apply",
+                "header_size": "h2",
+                "alignment": "left",
+                "title_color": "#161616",
+                "_title_color": "#161616",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 28
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00006a",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "44",
+          "right": "20",
+          "bottom": "44",
+          "left": "20"
+        }
+      },
+      "elements": [
+        {
+          "id": "b000069",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b000062",
+              "elType": "column",
+              "settings": {
+                "_element_width": "33"
+              },
+              "elements": [
+                {
+                  "id": "b000060",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "1",
+                    "header_size": "h3",
+                    "alignment": "left",
+                    "title_color": "#192f59",
+                    "_title_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  }
+                },
+                {
+                  "id": "b000061",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>Check Requirements</strong><br>Review the entry requirements for your chosen programme in the details below each programme card.</p>",
+                    "alignment": "left",
+                    "text_color": "#2b2f36",
+                    "_text_color": "#2b2f36",
+                    "_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b000065",
+              "elType": "column",
+              "settings": {
+                "_element_width": "33"
+              },
+              "elements": [
+                {
+                  "id": "b000063",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "2",
+                    "header_size": "h3",
+                    "alignment": "left",
+                    "title_color": "#192f59",
+                    "_title_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  }
+                },
+                {
+                  "id": "b000064",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>Obtain the Application Form</strong><br>Application forms and documents can be requested from the faculty office via email.</p>",
+                    "alignment": "left",
+                    "text_color": "#2b2f36",
+                    "_text_color": "#2b2f36",
+                    "_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b000068",
+              "elType": "column",
+              "settings": {
+                "_element_width": "33"
+              },
+              "elements": [
+                {
+                  "id": "b000066",
+                  "elType": "widget",
+                  "widgetType": "heading",
+                  "settings": {
+                    "title": "3",
+                    "header_size": "h3",
+                    "alignment": "left",
+                    "title_color": "#192f59",
+                    "_title_color": "#192f59",
+                    "_title_font_size": {
+                      "unit": "px",
+                      "size": 24
+                    }
+                  }
+                },
+                {
+                  "id": "b000067",
+                  "elType": "widget",
+                  "widgetType": "text-editor",
+                  "settings": {
+                    "editor": "<p><strong>Submit & Enquire</strong><br>Submit the completed form and contact the relevant department or faculty office for confirmation.</p>",
+                    "alignment": "left",
+                    "text_color": "#2b2f36",
+                    "_text_color": "#2b2f36",
+                    "_font_size": {
+                      "unit": "px",
+                      "size": 15
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "b00006i",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#192f59",
+        "_background_color": "#192f59",
+        "padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "40",
+          "right": "40",
+          "bottom": "40",
+          "left": "40"
+        }
+      },
+      "elements": [
+        {
+          "id": "b00006d",
+          "elType": "column",
+          "settings": {
+            "_element_width": "50"
+          },
+          "elements": [
+            {
+              "id": "b00006b",
+              "elType": "widget",
+              "widgetType": "heading",
+              "settings": {
+                "title": "Need help?",
+                "header_size": "h3",
+                "alignment": "left",
+                "title_color": "#ffffff",
+                "_title_color": "#ffffff",
+                "_title_font_size": {
+                  "unit": "px",
+                  "size": 22
+                }
+              }
+            },
+            {
+              "id": "b00006c",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<p style=\"color:rgba(255,255,255,0.85)\">Contact the faculty office for programme enquiries, applications and general information.</p>",
+                "alignment": "left",
+                "text_color": "rgba(255,255,255,0.85)",
+                "_text_color": "rgba(255,255,255,0.85)",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00006f",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00006e",
+              "elType": "widget",
+              "widgetType": "text-editor",
+              "settings": {
+                "editor": "<strong style=\"color:#ffffff\">Telephone</strong><br>+94 37 228 4215",
+                "alignment": "left",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_font_size": {
+                  "unit": "px",
+                  "size": 15
+                }
+              }
+            }
+          ]
+        },
+        {
+          "id": "b00006h",
+          "elType": "column",
+          "settings": {
+            "_element_width": "25"
+          },
+          "elements": [
+            {
+              "id": "b00006g",
+              "elType": "widget",
+              "widgetType": "button",
+              "settings": {
+                "text": "Email the office",
+                "link": [
+                  {
+                    "url": "mailto:bsfoffice@wyb.ac.lk",
+                    "is_external": "",
+                    "target": ""
+                  }
+                ],
+                "style": "solid",
+                "background_color": "#3db166",
+                "_background_color": "#3db166",
+                "text_color": "#ffffff",
+                "_text_color": "#ffffff",
+                "_border_radius": {
+                  "unit": "px",
+                  "top": 12,
+                  "right": 12,
+                  "bottom": 12,
+                  "left": 12
+                },
+                "_button_width": "auto"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "Academic Programmes"
+}

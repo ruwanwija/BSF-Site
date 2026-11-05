@@ -1,0 +1,50 @@
+{
+  "content": [
+    {
+      "id": "b0000f7",
+      "elType": "section",
+      "settings": {
+        "background_background": "classic",
+        "background_color": "#ffffff",
+        "_background_color": "#ffffff",
+        "padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        },
+        "_padding": {
+          "unit": "px",
+          "top": "20",
+          "right": "16",
+          "bottom": "20",
+          "left": "16"
+        }
+      },
+      "elements": [
+        {
+          "id": "b0000f6",
+          "elType": "column",
+          "settings": {
+            "_element_width": "100"
+          },
+          "elements": [
+            {
+              "id": "b0000f5",
+              "elType": "widget",
+              "widgetType": "fbsf-events",
+              "settings": {
+                "fbsf_events_type": "research-symposium",
+                "fbsf_events_limit": "3"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "page_settings": [],
+  "version": "0.4",
+  "title": "FBSF — Event Card"
+}

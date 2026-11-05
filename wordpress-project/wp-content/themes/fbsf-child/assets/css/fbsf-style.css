@@ -1,0 +1,168 @@
+/* FBSF Child theme — page-level design system.
+   Complements fbsf-shortcodes.css (component library) with site chrome:
+   body background, container tweaks, Elementor compatibility, typography. */
+
+:root {
+    --bsf-navy: #192f59;
+    --bsf-green: #3db166;
+    --bsf-green-dark: #339966;
+    --bsf-ink: #161616;
+    --bsf-body: #2b2f36;
+    --bsf-muted: #6b6b6b;
+    --bsf-bg: #f5f7fa;
+    --bsf-white: #ffffff;
+    --bsf-radius: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: var( --bsf-bg );
+    color: var( --bsf-body );
+    font-family: 'Poppins', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+/* ---------- Typography ---------- */
+h1, h2, h3, h4, h5, h6 {
+    color: var( --bsf-ink );
+    font-weight: 700;
+}
+
+/* ---------- Page hero (Elementor section helper) ---------- */
+.fbsf-page-hero {
+    background: linear-gradient( 135deg, #192f59 0%, #25427a 60%, #2e5696 100% );
+    color: #fff;
+    border-radius: var( --bsf-radius );
+    padding: 54px 44px;
+}
+
+.fbsf-page-hero h1 {
+    color: #fff;
+    font-size: 34px;
+    margin: 0 0 14px;
+    line-height: 1.2;
+}
+
+.fbsf-page-hero p {
+    color: rgba( 255, 255, 255, 0.88 );
+    font-size: 16px;
+    margin: 0;
+    max-width: 720px;
+    line-height: 1.7;
+}
+
+.fbsf-breadcrumb {
+    color: rgba( 255, 255, 255, 0.7 );
+    font-size: 13px;
+    margin-bottom: 18px;
+}
+
+.fbsf-breadcrumb a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ---------- Section blocks ---------- */
+.fbsf-section {
+    padding: 44px 0;
+}
+
+.fbsf-section--alt {
+    background: var( --bsf-white );
+}
+
+.fbsf-section-eyebrow {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var( --bsf-green-dark );
+    margin-bottom: 10px;
+}
+
+.fbsf-section-title {
+    color: var( --bsf-ink );
+    font-size: 28px;
+    margin: 0 0 8px;
+}
+
+.fbsf-section-sub {
+    color: var( --bsf-muted );
+    font-size: 15px;
+    margin: 0 0 28px;
+    max-width: 680px;
+}
+
+/* ---------- Elementor compatibility ---------- */
+/* Compact Elementor default padding for full-width sections */
+section.elementor-section.elementor-section-full-width {
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+/* Elementor accordion/tabs accent */
+.elementor-accordion .elementor-accordion-tab-title {
+    color: var( --bsf-navy );
+    font-weight: 600;
+}
+
+.elementor-accordion .elementor-accordion-tab-title.elementor-accordion-tab-title-active {
+    color: var( --bsf-green-dark );
+}
+
+/* Elementor button accent */
+.elementor-button.elementor-button-link {
+    border-radius: 12px;
+}
+
+/* ---------- Contact form ---------- */
+.fbsf-form-card {
+    background: var( --bsf-white );
+    border-radius: var( --bsf-radius);
+    padding: 34px;
+    box-shadow: 0 8px 24px rgba( 22, 34, 64, 0.10 );
+}
+
+.fbsf-form-success {
+    background: rgba( 61, 177, 102, 0.12 );
+    border: 1px solid rgba( 61, 177, 102, 0.4 );
+    color: var( --bsf-green-dark );
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+/* ---------- Misc ---------- */
+.fbsf-notice {
+    background: rgba( 25, 47, 89, 0.06 );
+    border-left: 4px solid var( --bsf-navy );
+    border-radius: 12px;
+    padding: 16px 20px;
+    color: var( --bsf-ink );
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.fbsf-notice--archived {
+    border-left-color: var( --bsf-muted );
+}
+
+/* ---------- Responsive ---------- */
+@media ( max-width: 768px ) {
+    .fbsf-page-hero {
+        padding: 34px 22px;
+    }
+    .fbsf-page-hero h1 {
+        font-size: 26px;
+    }
+    .fbsf-section-title {
+        font-size: 22px;
+    }
+    .fbsf-form-card {
+        padding: 22px;
+    }
+}

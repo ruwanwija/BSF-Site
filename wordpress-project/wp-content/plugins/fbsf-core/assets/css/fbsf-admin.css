@@ -1,0 +1,36 @@
+/* FBSF admin repeater styles */
+.fbsf-repeater {
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 12px;
+    background: #fff;
+}
+
+.fbsf-repeater-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: #fbfbfb;
+    align-items: flex-start;
+}
+
+.fbsf-repeater-field {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 220px;
+    font-size: 12px;
+    color: #50575e;
+}
+
+.fbsf-repeater-field input,
+.fbsf-repeater-field textarea {
+    margin-top: 4px;
+}
+
+.fbsf-repeater-remove {
+    align-self: center;
+}

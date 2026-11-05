@@ -1,0 +1,18 @@
+/*
+Theme Name: FBSF Child
+Theme URI: https://wyb.ac.lk
+Author: FBSF Web Team
+Author URI: https://wyb.ac.lk
+Description: Child theme of Twenty Twenty-Five for the Faculty of Business Studies and Finance website. Adds the FBSF design system (navy/green palette, card components, shortcode styles) and interactions (back-to-top, smooth scroll, download notices, filters).
+Template: twentytwentyfive
+Version: 1.0.0
+Requires at least: 6.0
+Requires PHP: 7.4
+License: GPL-2.0-or-later
+Text Domain: fbsf-child
+*/
+
+/*
+The child theme inherits the parent theme styles and layers the FBSF design
+system on top. Header and footer are built with the Elementor Theme Builder.
+*/
