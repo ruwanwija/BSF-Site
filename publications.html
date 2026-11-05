@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Publications — FBSF, Wayamba University of Sri Lanka</title>
+  <meta name="description" content="FBSF publications portal — JARSYM, JAF, SACFIRE, SLJBSF, SLJBF, JIF and Voice of Insurance: ISSNs, issues, research articles, editorial boards and submission guidelines.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container">
+      <div class="topbar-contact">
+        <span><svg class="icon" style="width:14px;height:14px"><use href="assets/icons/icons.svg#icon-location"></use></svg> 60200, Kuliyapitiya, Sri Lanka</span>
+        <span><svg class="icon" style="width:14px;height:14px"><use href="assets/icons/icons.svg#icon-phone"></use></svg> Tel +94 37 228 4215</span>
+        <span><svg class="icon" style="width:14px;height:14px"><use href="assets/icons/icons.svg#icon-mail"></use></svg> bsfoffice@wyb.ac.lk</span>
+      </div>
+      <div class="topbar-links">
+        <a href="https://wyb.ac.lk/" target="_blank" rel="noopener">Wayamba University</a>
+        <span class="topbar-sep">|</span>
+        <a href="contact.html">Student Inquiries</a>
+        <span class="topbar-sep">|</span>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="site-logo" href="index.html" aria-label="FBSF home">
+        <img src="assets/images/logo.svg" alt="Faculty of Business Studies and Finance, Wayamba University of Sri Lanka">
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+        <svg class="icon"><use href="assets/icons/icons.svg#icon-menu"></use></svg>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="nav-dropdown">
+            <a class="nav-dropdown-toggle" href="departments.html" aria-haspopup="true">Departments
+              <svg class="icon"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </a>
+            <ul>
+              <li><a href="departments/accountancy.html">Department of Accountancy</a></li>
+              <li><a href="departments/banking-finance.html">Department of Banking &amp; Finance</a></li>
+              <li><a href="departments/business-management.html">Department of Business Management</a></li>
+              <li><a href="departments/insurance-valuation.html">Department of Insurance &amp; Valuation</a></li>
+              <li><a href="departments.html">All departments</a></li>
+            </ul>
+          </li>
+          <li><a href="programmes.html">Programmes</a></li>
+          <li class="nav-dropdown">
+            <a class="nav-dropdown-toggle" href="research.html" aria-haspopup="true">Research
+              <svg class="icon"><use href="assets/icons/icons.svg#icon-chevron-down"></use></svg>
+            </a>
+            <ul>
+              <li><a href="research.html">Research Portal</a></li>
+              <li><a href="publications.html">Publications</a></li>
+              <li><a href="events.html">Events &amp; Symposia</a></li>
+            </ul>
+          </li>
+          <li><a href="authorities.html">Authorities</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn--outline btn--sm header-search-btn" id="searchButton" aria-label="Search the website">
+          <svg class="icon"><use href="assets/icons/icons.svg#icon-search"></use></svg>
+          <span class="search-btn-text">Search</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li class="current">Publications</li>
+          </ol>
+        </nav>
+        <h1>Publications</h1>
+        <p>Seven scholarly journals and magazines published by the faculty and its departments — refereed, double-blind peer-reviewed and open-access outlets with documented ISSNs, issues and editorial boards.</p>
+      </div>
+    </section>
+
+    <!-- ============================ JOURNAL GRID ============================ -->
+    <section class="section">
+      <div class="container">
+        <div class="filters">
+          <div class="filter-group">
+            <span class="filter-label">Filter by</span>
+            <div class="filter-pills" id="journalTabs"></div>
+          </div>
+          <div class="search-input-wrap">
+            <svg class="icon"><use href="assets/icons/icons.svg#icon-search"></use></svg>
+            <input class="search-input" id="publicationSearch" type="search" placeholder="Search publications..." aria-label="Search publications">
+          </div>
+        </div>
+
+        <div class="grid" id="publicationGrid" style="grid-template-columns:repeat(3,1fr)"></div>
+      </div>
+    </section>
+
+    <!-- ============================ ARTICLES ============================ -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">Research Articles</span>
+          <h2>Search Articles</h2>
+          <p>Search across the documented research articles of the faculty&rsquo;s journals by title, author or issue.</p>
+        </div>
+        <div class="filters" style="justify-content:center">
+          <div class="search-input-wrap">
+            <svg class="icon"><use href="assets/icons/icons.svg#icon-search"></use></svg>
+            <input class="search-input" id="articleSearch" type="search" placeholder="Search articles by title or author..." aria-label="Search articles" style="max-width:460px">
+          </div>
+        </div>
+        <div class="filter-pills" style="margin-bottom:18px">
+          <span class="badge badge--outline" id="articleCount" style="font-family:var(--font-head);font-size:13px;padding:7px 14px">Articles</span>
+        </div>
+        <ul class="article-list" id="articleResults"></ul>
+      </div>
+    </section>
+
+    <!-- ============================ SUBMISSIONS ============================ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head">
+          <span class="eyebrow">For Authors</span>
+          <h2>Submission Information</h2>
+        </div>
+        <div class="grid" style="grid-template-columns:1.4fr 1fr">
+          <div class="vm-card">
+            <div class="icon-wrap"><svg class="icon"><use href="assets/icons/icons.svg#icon-file"></use></svg></div>
+            <h3>Journal Submission Emails</h3>
+            <ul class="detail-list" style="margin-bottom:0">
+              <li><strong>JAF</strong> — jaf@wyb.ac.lk (MS Word; max 30 pages B5; similarity index up to 20%)</li>
+              <li><strong>SLJBSF</strong> — sljbsf@wyb.ac.lk</li>
+              <li><strong>SLJBF</strong> — sljbf@wyb.ac.lk / sljbf.ce@gmail.com, Tel (+94) 037-2284216</li>
+              <li><strong>JIF</strong> — jif@wyb.ac.lk</li>
+            </ul>
+          </div>
+          <div class="vm-card">
+            <div class="icon-wrap"><svg class="icon"><use href="assets/icons/icons.svg#icon-info"></use></svg></div>
+            <h3>Note</h3>
+            <p>Submission guidelines, editorial policies and manuscript preparation instructions are referenced in the faculty documentation. Where a journal&rsquo;s guidelines were not reproduced in text, contact the publishing department through the faculty office.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-strip section">
+      <div class="container">
+        <div>
+          <h2>Journal Enquiries</h2>
+          <p>Contact the publishing department of each journal using the emails above, or the faculty office for general enquiries.</p>
+        </div>
+        <div class="contact-details">
+          <a href="mailto:jaf@wyb.ac.lk"><svg class="icon" style="width:15px;height:15px;color:var(--green)"><use href="assets/icons/icons.svg#icon-mail"></use></svg> jaf@wyb.ac.lk</a>
+          <a href="mailto:sljbsf@wyb.ac.lk"><svg class="icon" style="width:15px;height:15px;color:var(--green)"><use href="assets/icons/icons.svg#icon-mail"></use></svg> sljbsf@wyb.ac.lk</a>
+          <a href="mailto:jif@wyb.ac.lk"><svg class="icon" style="width:15px;height:15px;color:var(--green)"><use href="assets/icons/icons.svg#icon-mail"></use></svg> jif@wyb.ac.lk</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="assets/images/logo.svg" alt="FBSF logo">
+          <p>Faculty of Business Studies and Finance, Wayamba University of Sri Lanka. Established 01 October 1999 by the Extraordinary Gazette No. 1093/8 — the fastest growing faculty of Wayamba University.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="about.html">About the Faculty</a></li>
+            <li><a href="departments.html">Departments</a></li>
+            <li><a href="programmes.html">Academic Programmes</a></li>
+            <li><a href="publications.html">Publications</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="authorities.html">Authorities &amp; QA</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Useful Links</h4>
+          <ul class="footer-contact">
+            <li><svg class="icon"><use href="assets/icons/icons.svg#icon-location"></use></svg> Faculty of Business Studies and Finance, Wayamba University of Sri Lanka, 60200, Kuliyapitiya, Sri Lanka</li>
+            <li><svg class="icon"><use href="assets/icons/icons.svg#icon-phone"></use></svg> Tel: +94 37 228 4215</li>
+            <li><svg class="icon"><use href="assets/icons/icons.svg#icon-mail"></use></svg> <a href="mailto:bsfoffice@wyb.ac.lk" style="color:#ababab">bsfoffice@wyb.ac.lk</a></li>
+          </ul>
+          <ul>
+            <li><a href="https://wyb.ac.lk/" target="_blank" rel="noopener">Wayamba University of Sri Lanka</a></li>
+            <li><a href="https://libsys.wyb.ac.lk/" target="_blank" rel="noopener">WUSL Library</a></li>
+            <li><a href="https://sdc.wyb.ac.lk/wybsdc/" target="_blank" rel="noopener">Staff Development Centre</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        <span>&copy; <span id="footerYear">2026</span> Faculty of Business Studies and Finance, Wayamba University of Sri Lanka. All rights reserved.</span>
+        <span>Website content verified against faculty documentation (2023–2026).</span>
+      </div>
+    </div>
+  </footer>
+
+  <div id="searchModalHost"></div>
+  <div id="noticeHost"></div>
+  <button class="back-to-top" aria-label="Back to top">
+    <svg class="icon"><use href="assets/icons/icons.svg#icon-arrow-up"></use></svg>
+  </button>
+
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/search.js"></script>
+  <script src="js/filters.js"></script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 150" role="img" aria-label="FBSF logo">
+  <defs>
+    <linearGradient id="lg-mark" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f3d6e"/>
+      <stop offset="1" stop-color="#16294a"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="136" height="136" rx="18" fill="url(#lg-mark)" stroke="#3db166" stroke-width="3"/>
+  <text x="68" y="62" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="40" font-weight="700" fill="#ffffff">F</text>
+  <text x="68" y="96" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#ffffff">B</text>
+  <text x="68" y="124" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#3db166">S</text>
+  <text x="158" y="52" font-family="Georgia, 'Times New Roman', serif" font-size="34" font-weight="700" fill="#16294a">Faculty of Business Studies and Finance</text>
+  <text x="158" y="80" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="400" fill="#339966">WAYAMBA UNIVERSITY OF SRI LANKA</text>
+  <rect x="158" y="94" width="392" height="3" rx="1.5" fill="#c9d3e0"/>
+  <text x="158" y="122" font-family="Georgia, 'Times New Roman', serif" font-size="13" fill="#6b6b6b">Established 1999 · Kuliyapitiya · Sri Lanka</text>
+</svg>
