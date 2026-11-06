@@ -71,7 +71,12 @@ BSF-Site/
 │   └── filters.js              # programme & publication filtering, article search
 ├── README.md                   # this file
 ├── CONTENT_MAPPING.md          # where every document section lives on the site
-└── CONTENT_GAPS.md             # missing information & assets requiring follow-up
+├── CONTENT_GAPS.md             # missing information & assets requiring follow-up
+├── database/
+│   ├── website_database.sql    # MySQL schema + seed data (35 tables, importable)
+│   ├── DATABASE_DOCUMENTATION.md  # table/column docs, ERD, sample queries, import guide
+│   └── database_erd.png        # entity-relationship diagram
+└── wordpress-project/          # WordPress + Elementor conversion of the site
 ```
 
 ## 4. Features
@@ -109,6 +114,18 @@ See **CONTENT_MAPPING.md** for a section-by-section trace of the document, and *
 - **Colours / typography:** edit the CSS variables in `css/style.css` (top of file). The palette follows the university's institutional identity (navy `#192f59`, accent green `#3db166`).
 - **Content:** almost all content lives in `js/data.js` (departments, programmes, publications, symposia, announcements, FAQs, contacts). Edit the data and every page updates automatically.
 - **Logo:** `assets/images/logo.svg` is a clean typographic placeholder — replace it with the official FBSF logo when available (see CONTENT_GAPS.md).
+
+## 8. Database (MySQL)
+
+A relational MySQL database (35 tables, InnoDB, utf8mb4) supports the site's dynamic content for a future backend. It is designed to be served through an API — the frontend itself contains no database credentials or connection code.
+
+| File | Description |
+|---|---|
+| `database/website_database.sql` | Full schema + seed data. Creates the database, all 35 tables (PK/FK, indexes, unique constraints), and inserts sample rows derived from the verified site content. |
+| `database/DATABASE_DOCUMENTATION.md` | Overview, table catalog (columns, keys, FKs), ERD, sample queries, phpMyAdmin/CLI import instructions, backend-integration notes, and security guidance. |
+| `database/database_erd.png` | Entity-relationship diagram of all tables and relationships. |
+
+**Import** (phpMyAdmin: create database `bsf_website` → Import → choose the `.sql`; or CLI: `mysql -u <user> -p < database/website_database.sql`). The seeded admin account uses a placeholder password — change it after first login. See `DATABASE_DOCUMENTATION.md` for full instructions.
 
 ---
 
